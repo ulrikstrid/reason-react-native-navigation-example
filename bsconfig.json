@@ -1,0 +1,28 @@
+{
+  "name": "reason-react-native-navigation-example",
+  "reason": {
+    "react-jsx": 2
+  },
+  "bs-dependencies": [
+    "bs-react-native",
+    "reason-react",
+    "reason-react-native-navigation"
+  ],
+  "bsc-flags": ["-bs-super-errors"],
+  "sources": [
+    {
+      "dir": "re",
+      "subdirs": [
+        {
+          "dir": "types"
+        },
+        {
+          "dir": "scenes"
+        },
+        {
+          "dir": "components"
+        }
+      ]
+    }
+  ]
+}
